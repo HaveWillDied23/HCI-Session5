@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:"Playwrite CA Guides", cursive;
+    background-color: #242c67;
+    color: #fff;
+}
+
+.main-component {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    gap:  20px;
+    justify-content: center;
+    align-items: center;
+}
+.announcement{
+    display:flex;
+    align-items: center;
+    background-color: rgb(49, 119, 96);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #2fc0c8;
+    transition: color 0.3s ease;
+
+
+}
+.announcement a:hover {
+    color: #8d1d1d;
+    transition: color 0.3s ease;
+}
+.title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    white-space: pre-line;
+    max-width: 20ch;
+    margin: 0 auto;
+}
+.Description{
+    text-align: center;
+    white-space: pre-line;
+    max-width: 55ch;
+    margin: 0 auto;
+
+}
